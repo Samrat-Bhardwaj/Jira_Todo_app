@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+}
+
+/* generic */
+.lightpink{
+    background-color:lightpink;
+}
+
+.lightblue{
+    background-color:lightblue;
+}
+
+.lightgreen{
+    background-color:lightgreen;
+}
+
+.black{
+    background-color:black;
+}
+
+.remove:hover{
+    background-color:black;
+}
+
+.add:hover{
+    background-color:black;
+}
+
+.add:active{
+    background-color:black;
+}
+
+.remove:active{
+    background-color:black;
+}
+
+ /* navbar ============================================== */
+.navbar{
+    background-color:#444;
+    height:12vh;
+    display:flex;
+    align-items: center;
+    padding-left:4rem;
+    /* flex-wrap:wrap; */
+    gap:6rem;
+}
+
+.filter_container{
+    height:70%;
+    width:20%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color:rgb(139, 135, 135);
+}
+
+.filter-colors__container{
+    display:flex;
+    /* yaha p pura pura le liya taki click har jagah kar sake */
+    height:100%; 
+    width:25%;
+    border-radius: 0.3rem;
+    justify-content: center;
+    align-items:center;
+}
+/* ??? */
+.filter-color{
+    height:50%;
+    width: 14%;
+    border-radius:0.4rem;
+}
+
+.action_container{
+    height:70%;
+    width:10%;
+    display:flex;
+    background-color: rgb(139, 135, 135);   
+    border-radius: 0.3rem; 
+    justify-content:space-evenly;
+}
+
+.action-container__icons{
+    height:100%;
+    width: 40%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:rgb(240, 231, 231);
+}
+.fas{
+    font-size: x-large;
+}
+
+/* baki ka container */
+.block{
+    min-height:87vh;
+    border: 5px solid green;
+    display: flex;
+    background-color:rgb(245, 241, 241);
+}
+
+.modal-container{
+    height:18rem;
+    width: 30rem;
+    position: absolute; 
+    top:30%;
+    left:30%;
+    display: none;
+    box-shadow:0.1rem 0.1rem 3rem #444;
+}
+
+.task-container{
+    height:100%;
+    width: 75%;
+    background-color:rgb(151, 151, 167);
+}
+
+.desc-box{
+    padding-top:1.5rem;
+    padding-left: 1.5rem;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:100%;
+    width:100%;
+    border-radius: 0.5rem;
+}
+.task-filter-container{
+    height:100%;
+    width:25%;
+    background-color:grey;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius:0.25rem;
+}
+.task-filters{
+    height:12%;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+.border{
+    border:2px solid white;
+}
+
+/* blocks styling ============================================== */
+.tickets{
+    height:100vh;
+    width:100%;
+    padding-left: 3rem;
+    padding-top:2rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap:5vw;
+    flex-wrap: wrap;
+}
+
+.ticket-container{
+    height:10rem;
+    display:flex;
+    flex-direction:column;
+    width:10rem;
+    border-radius: 0.7rem;
+    background-color:white;
+    box-shadow: 0.5px 0.5px 10px;
+}
+
+.top-color{
+    height:4%;
+    width:100%;
+    border-radius:0.3rem;
+    /* background-color:pink; */
+}
+
+.ticketId{
+    padding-left:0.5rem;
+    color:lightslategray;
+}
+
+.ticket-sub-container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ticket-disc{
+    text-align: center;
+    height: 70%;
+}

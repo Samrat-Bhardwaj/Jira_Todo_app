@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            height:200px;
+            width:300px;
+            background-color:green;
+        }
+        /* screen size */
+        /* screen height -> 100vh */
+        /* screen width -> 100vw */
+        .two{
+            height:40vh;
+            width:50vw;
+            background-color:aqua;
+        }
+         /*  percentage is always realted to parent  */
+        .children{
+            height:50%;
+            width:70%;
+            background-color:rgb(148, 106, 50);
+        }
+        /* rem-> relative unit
+
+        */
+        .three{
+            height:10rem;
+            width:50rem;
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+     <!--  div -> block level elements  -->
+    <!-- width throughout  -->
+    <!-- height
+        default -> content height
+                heightprovide -> div given height -->
+    <div class="one"></div>
+    <div class="two">
+        <div class="children"></div>
+    </div>
+    <div class="three">lorem</div>
+</body>
+</html>

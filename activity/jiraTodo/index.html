@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="filter_container">
+        <div class="filter-colors__container lightpink filter-color"></div>
+        <div class="filter-colors__container lightblue filter-color"></div>
+        <div class="filter-colors__container lightgreen filter-color"></div>
+        <div class="filter-colors__container black filter-color"></div>
+      </div>
+      <div class="action_container">
+        <div class="add action-container__icons">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="remove action-container__icons">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+    </div>
+    <div class="block">
+      <div class="modal-container">
+        <div class="task-container">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter task here"
+            class="desc-box"
+          ></textarea>
+        </div>
+        <div class="task-filter-container">
+          <div class="task-filters lightpink"></div>
+          <div class="task-filters lightblue"></div>
+          <div class="task-filters lightgreen"></div>
+          <div class="task-filters border black"></div>
+        </div>
+      </div>
+      <div class="tickets">
+        <!-- <div class="top-color"></div>  -->
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+
+    <!-- Usage -->
+    <script>
+      // Instantiate
+      var uid = new ShortUniqueId();
+
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

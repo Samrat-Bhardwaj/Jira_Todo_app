@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    background-color: rgb(51, 100, 206);
+    /* align-items: center; */
+}
+li{
+    /* pahle se jo browser ka style hota h vo hataya */
+    list-style:none;
+}
+
+.input-container{
+    height:15vh;
+    padding-top: 2rem;
+}
+
+.input-box{
+    display:block;
+    height:80%;
+    width:60vw;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin:0 auto;
+}
+
+.main-container {
+    padding-top: 2rem;
+    text-align: center;
+    color:white;
+    font-family: 'Antonio', sans-serif;
+}
+
+.task-list{
+    padding-left: 0;
+}
+
+.action {
+    font-size: 1.5rem;
+    background-color:lightblue;
+    width: 70%;
+    margin:0 auto;
+}
+
+.task{
+    height:2 rem;
+    font-size: 1.5rem;
+    width:60%;
+    background-color:aqua;
+    margin:0 auto;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .input-box {
+      width:60vw;
+    }
+  }
+
